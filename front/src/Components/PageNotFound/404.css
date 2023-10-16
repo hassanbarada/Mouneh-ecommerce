@@ -1,0 +1,33 @@
+.notfound-body{
+    background-color: #EDB71A; 
+}
+.notfound-container{  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.notfound-content{
+    font-size: 130px;
+    color:var(--secondary-color);
+}
+.chef-photo{
+    width: 450px;
+    height: 450px;
+}
+.parag-notfound{
+    font-size: 50px;
+    color:var(--secondary-color);
+}
+.parag-two-notfound{
+    color:var(--secondary-color);
+    font-weight: bold;
+}
+.notfound-btn {
+    background-color: #6B4423;
+    color: #EDB71A;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 130px;
+    cursor: pointer;
+}

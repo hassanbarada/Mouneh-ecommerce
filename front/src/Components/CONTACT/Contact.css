@@ -1,0 +1,85 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+}
+.contact-container .form-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.contact-container-left{
+    margin-right: 40px;
+}
+.contact-container-left img{
+    width: 100%;
+}
+.contact-container .form-section{
+    margin-bottom: 5px;
+}
+
+.contact-container form{
+    width: fit-content;
+    font-weight: bold;
+    font-size: large;
+    color: var(--primary-color);
+    transform: translateY(50px);
+    margin-bottom: 20px;
+}
+
+
+.contact-container form input{
+    outline-color: var(--primary-color);
+    line-height: 25px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.contact-container form input:nth-child(3){
+    width: 100%;
+
+}
+.contact-container form input[type="email"]{
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-container button{
+    padding: 10px 15px 10px 15px;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all ease 400ms;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .button-container button:hover{
+    color: white;
+    background-color: var(--primary-color);
+    border: transparent;
+  }
+
+ textarea{
+    height: 150px;
+}
+
+  @media screen and (max-width: 650px) {
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-container form{
+        width: 100%;
+    }
+    .contact-container form textarea{
+        width: 100%;
+    }
+    
+  }

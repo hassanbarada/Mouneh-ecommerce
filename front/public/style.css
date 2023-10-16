@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body.contact-page {
+    background-color: white;
+  }
+
+:root {
+    --primary-color: #EDB71A;
+    --secondary-color: #6B4423;
+    --accent-color-1: #FF7F50;
+    --accent-color-2: #95A5A6;
+  }

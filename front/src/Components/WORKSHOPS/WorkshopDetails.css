@@ -1,0 +1,160 @@
+:root {
+  --primary-color: #EDB71A;
+  --secondary-color: #6B4423;
+  --accent-color-1: #FF7F50;
+  --accent-color-2: #95A5A6;
+}
+
+
+
+.workshopDetails-Card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.workshopDetailsImage {
+  height: 70vh;
+  width: 70vh;
+  border: 5px solid var(--primary-color);
+}
+
+.workshop-information {
+  width: 100%;
+  max-width: 700px;
+  /* Adjust max-width as needed */
+  background-color: var(--primary-color);
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  padding: 5%;
+  box-sizing: border-box;
+  margin-left: 22vh;
+  height: 60vh;
+}
+
+.workshop-title {
+  margin-bottom: 3vh;
+}
+
+.btnREg {
+  /* margin-left: 30%; */
+}
+
+.workshop-desc,
+.ws-duration,
+.ws-capacity,
+.ws-price {
+  margin-bottom: 3vh;
+}
+
+.ws-registerbtn {
+  border: none;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  max-width: 200px;
+  /* Adjust max-width as needed */
+  height: 5vh;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.ws-registerbtn:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .workshopDetails-Card {
+    flex-direction: column;
+  }
+
+  .workshopDetailsImage {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .workshop-information {
+    margin: 20px 0;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .workshopDetailsImage {
+    height: 40vh;
+  }
+
+  .workshop-information {
+    padding: 3%;
+  }
+
+  .workshop-title {
+    font-size: 20px;
+  }
+
+
+  .workshop-desc,
+  .ws-duration,
+  .ws-capacity,
+  .ws-price {
+    font-size: 14px;
+  }
+
+  .ws-registerbtn {
+    height: 4vh;
+  }
+}
+
+
+
+/* @media screen and (max-width: 600px) {
+  .workshopDetails-Card {
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .workshopDetailsImage {
+    height: 50vh;
+    width: 95%;
+  }
+
+  .workshop-information {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .workshopDetailsImage {
+    height: 40vh;
+    width: 70%;
+  }
+
+  .workshop-information {
+    padding: 3%;
+  }
+
+  .workshop-title {
+    font-size: 20px;
+    margin-left: 20%;
+  }
+
+  .workshop-desc,
+  .ws-duration,
+  .ws-capacity,
+  .ws-price {
+    font-size: 14px;
+  }
+
+  .ws-registerbtn {
+    height: 4vh;
+    margin-left: 30%;
+  }
+} */

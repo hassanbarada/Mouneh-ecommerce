@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #EDB71A;
+  --secondary-color: #6B4423;
+  --accent-color-1: #FF7F50;
+  --accent-color-2: #95A5A6;
+}
+
+.chatdiv {
+  width: 400px;
+  height: 9vh;
+  background-color: var(--primary-color);
+  margin: auto;
+  margin-top: 100px;
+}
+
+.Chats-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.mychats {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: var(--secondary-color);
+}
+
+.chat-title {
+  font-size: 90px;
+}

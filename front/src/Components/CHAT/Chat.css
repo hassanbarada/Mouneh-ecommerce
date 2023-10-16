@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #EDB71A;
+  --secondary-color: #6B4423;
+  --accent-color-1: #FF7F50;
+  --accent-color-2: #95A5A6;
+}
+
+.btn-send {
+  height: 5vh;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.message-input {
+  border: none;
+  border-color: var(--primary-color);
+  width: 100%;
+  /* Adjust width to fill available space */
+  height: 5vh;
+  padding: 5px;
+  margin-bottom: 10px;
+  /* Remove % from margin value */
+}
+
+.form-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* Center horizontally */
+}
+
+/* Responsive Media Queries */
+@media (min-width: 768px) {
+
+  /* Adjust the breakpoint as needed */
+  .message-input {
+    width: 400px;
+    /* Reset width for larger screens */
+  }
+}

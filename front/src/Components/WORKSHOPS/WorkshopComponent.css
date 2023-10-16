@@ -1,0 +1,151 @@
+
+:root {
+  --primary-color: #EDB71A;
+  --secondary-color: #6B4423;
+  --accent-color-1: #FF7F50;
+  --accent-color-2: #95A5A6;
+}
+
+
+
+.workshop-list{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.ws-card{
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  width: 60%;
+  margin-left: 20%;
+  height: 25vh;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.workshopImage{
+  width: 30%;
+  height: 20vh;
+  border: 1px solid var(--secondary-color);
+}
+
+.card-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.ws-info-board{
+  display: flex;
+  flex-direction: column;
+}
+
+.ws-title{
+  margin-left: 20%;
+  font-size: 22px;
+  width: 300px;
+  margin-top: 10px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ margin-bottom: 10px;
+}
+
+.ws-descrption{
+  margin-left: 20%;
+  font-size: 15px;
+  width: 300px;
+  margin-bottom: 15px;
+
+}
+
+.for-durandprice{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+
+.ws-durr{
+margin-right: 100px;
+}
+
+.for-wsbtn{
+  height: 20vh;
+  padding-top: 7vh;
+  /* padding-left: 13vh; */
+  margin-left: 10%;
+  width: 230px;
+  /* background-color: var(--secondary-color); */
+}
+
+.btnws{
+  border: none;
+  height: 5vh;
+  width: 22vh;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .workshop-list{
+    padding: 0px;
+  }
+
+  .card-row{
+    flex-direction: column;
+  }
+
+  .ws-card{
+    height: 50vh;
+    margin-left: 10%;
+  }
+
+  .workshopImage{
+    width:100%;
+    height: 15vh;
+
+  }
+  
+  .ws-title{
+    font-size: 15px;
+    margin-left: 2px;
+  }
+
+  .ws-descrption{
+    margin-left: 2px;
+    width: 120px;
+    margin-bottom: 5px;
+    height: 13vh;
+  }
+
+  .for-durandprice{
+    margin-left: 2px;
+    font-size: 15px;
+  }
+
+  .ws-durr{
+    margin-right: 20px;
+  }
+
+  .btnws{
+    margin-left: 0px;
+    padding: 10px;
+  }
+
+  .for-wsbtn{
+    font-size: 10px;
+    padding-left: 40px;
+    padding-bottom: 15px; 
+    margin-left: -15px;
+    padding-top: 0px;
+  }
+
+
+  
+
+}
